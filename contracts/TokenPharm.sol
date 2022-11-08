@@ -30,4 +30,7 @@ contract TokenPharm is ERC20 {
         require(verifyManufacturer());
         _mint(msg.sender, 1000);
     }
+
+
+    
 }
